@@ -1,0 +1,12 @@
+span{
+    color: blue;
+    background: #2cdf2c;
+}
+
+#block1{
+    /* padding góra prawo dół lewo */
+    padding: 20px 20px 20px 20px;
+    background: blueviolet;
+    margin: 0 auto;
+    margin: 20px;
+}
