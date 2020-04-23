@@ -1,0 +1,67 @@
+body{
+    background: #aaa;
+}
+main{
+    width: 100%;
+}
+header{
+    background: lightblue;
+}
+nav{
+    display: flex;  
+    flex-direction: column;
+}
+/* każdy a w każdym navie */
+nav a{
+    margin: 0 5px;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+section{
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+}
+article{
+    background: lightpink;
+    order: 1;
+}
+aside{
+    background: lightcoral;
+    order: 2;
+}
+#right-panel{
+    display: none;
+}
+@media(min-width: 550px){
+    section{
+        flex-direction: row;
+    }
+    aside, article{
+        order: unset;
+        /* unset - przywróć order do wartości domyślnej */
+    }
+    
+}
+
+@media (min-width: 900px){
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #right-panel{
+        display: block;
+        width: 150px;
+    }
+}
+
+@media(min-width: 550px) and (max-width: 899px){
+
+}
+@media(min-width: 900px) and (max-width: 1199px){
+
+}
+
+
+
+

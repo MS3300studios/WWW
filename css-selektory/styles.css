@@ -1,0 +1,38 @@
+div{
+    background: lightblue;
+}
+/* elementy w elementach */
+ul li{ 
+   /* każdy li w każdym ul */
+    margin: 10px;
+}
+/* wspólne formatowanie dla section i article */
+section, article{
+    padding: 10px;
+}
+
+/* formatowanie z użyciem ID elementu */
+/* #naglowek{
+    padding: 20px;
+} */
+
+/* formatowanie klasy */
+.f20{
+    font-size: 24px;;
+}
+
+.p40{
+    padding: 40px;
+}
+a:hover{
+    color: lightgreen;
+}
+/* wybrany element li z klasą lihover*/
+.lihover:nth-child(2){
+    color: green;
+}
+
+.phover:nth-child(even){
+    color: red;
+}
+

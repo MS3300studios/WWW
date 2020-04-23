@@ -1,0 +1,43 @@
+body{
+    background: gray;
+    display: flex;
+    justify-content: center;
+}
+main{
+    background: lightblue;
+    width: 1000px;
+    height: 800px;
+    position: relative;
+}
+main div{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#a1{
+    background-color: lightcoral;
+    /* top: 100px;
+    left: 222px; */    
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+#a2{
+    background-color: rgb(148, 46, 46);
+    left: 50px;
+    top: 50px;
+    z-index: 23;
+}
+#a3{
+    background-color: rgb(134, 69, 69);
+    left: 100px;
+    top: 100px;
+    z-index: 12;
+}
+#a4{
+    background-color: rgb(179, 130, 130);
+    left: 300px;
+    top: 150px;
+    z-index: 2;
+    position: fixed;
+}

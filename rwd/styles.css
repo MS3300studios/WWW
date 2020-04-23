@@ -44,3 +44,15 @@ footer{
     background-color: lime;
     height: 100px;
 }
+
+/* style w tych klamrach będą używane gdy */
+@media (max-width: 1000px){
+    main{
+        width: 850px;
+    }
+    #right-panel{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }   
+}
